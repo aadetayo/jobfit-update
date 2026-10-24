@@ -1,0 +1,8 @@
+{
+  "name": "JobFit",
+  "description": "See how well your resume fits any job, fix the gaps, and download a tailored resume in your own format. Powered by Gemini.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

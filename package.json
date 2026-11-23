@@ -5,37 +5,16 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "dev": "tsx server.ts",
-    "build": "vite build",
-    "lint": "tsc --noEmit",
-    "start": "node server.ts"
+    "dev": "node server.js",
+    "build": "node -e 'console.log(\"no build step needed\")'",
+    "start": "node server.js"
   },
   "engines": {
     "node": ">=20"
   },
   "dependencies": {
-    "@google/genai": "^1.0.0",
-    "express": "^4.21.0",
-    "jspdf": "^4.2.1",
-    "jszip": "^3.10.2",
-    "lucide-react": "^1.61.0",
-    "mammoth": "^1.13.0",
-    "pdfjs-dist": "^6.4.299",
-    "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "@google/genai": "^3.6.1",
+    "express": "^4.21.0"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "@tailwindcss/vite": "^4.3.3",
-    "@types/express": "^5.0.6",
-    "@types/jszip": "^3.4.1",
-    "@types/node": "^26.6.5",
-    "@types/react": "^19.3.0",
-    "@types/react-dom": "^19.3.0",
-    "@vitejs/plugin-react": "^6.1.2",
-    "tailwindcss": "^4.3.3",
-    "tsx": "^4.23.15",
-    "typescript": "^7.0.2",
-    "vite": "^8.3.5"
-  }
+  "license": "MIT"
 }
